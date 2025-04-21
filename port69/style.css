@@ -1,4 +1,113 @@
-    @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
-h1{
-    font-family: "Winky Rough", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Condensed+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+p{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
 }
+h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-size: 50px;
+    color: rgb(109, 109, 109);
+}
+h3{
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    color: rgb(104, 104, 104);
+}
+h4{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: rgb(95, 95, 95);
+}
+
+.menu-bar {
+    background-color: rgb(221, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    max-height: 60px;
+    padding: 10px 20px;
+    flex-direction: row;
+  }
+  img{
+    max-width: 900px;
+    max-height: 450px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, transparent 100%);
+    mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, transparent 100%);
+  }
+  .img1{
+    max-width: 300px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: -3%;
+  }
+  .img-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 100px;
+    align-items: center;
+}
+  button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    min-width: 120px;
+    min-height: 20px;
+    border-radius: 10px;
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  
+  .search-section h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+
+  }
+  
+  .search-section input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+  }
+  @keyframes fadeEffect {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes fadeOutEffect {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
